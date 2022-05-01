@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-cloud-alibaba-learning</artifactId>
+        <artifactId>dubbo</artifactId>
         <groupId>com.github.typ0520.scal</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>nacos</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>provider_9001</module>
-        <module>provider_9002</module>
-        <module>consumer</module>
-        <module>config</module>
-    </modules>
+    <artifactId>dubbo-api</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
