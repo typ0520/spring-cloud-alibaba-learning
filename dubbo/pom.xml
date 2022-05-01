@@ -16,6 +16,8 @@
         <module>basic-server</module>
         <module>basic-client</module>
         <module>springboot-basic-server</module>
+        <module>basic-server-nacos</module>
+        <module>basic-client-nacos</module>
     </modules>
 
     <properties>
