@@ -1,8 +1,8 @@
-###官网
+### 官网
 
 [https://dubbo.apache.org/zh/docs/v2.7/user/](https://dubbo.apache.org/zh/docs/v2.7/user/)
 
-###基础使用(单机直连)
+### 基础使用(单机直连)
 - 使用xml文件做配置，demo工程basic-client和basic-server
 - 使用springboot做集成，demo工程springboot-basic-server
 
@@ -18,7 +18,7 @@ springboot启动类增加@EnableDubbo注解
 
 实现类增加org.apache.dubbo.config.annotation.Service注解
 
-###使用注册中心
+### 使用注册中心
 支持consul、zookeeper、eureka、redis、nacos等作为注册中心，接入方法都一样非常方便，加上相关依赖，配置下服务地址就可以了
 
 - nacos，demo工程basic-client-nacos和basic-server-nacos

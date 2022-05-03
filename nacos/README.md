@@ -1,14 +1,14 @@
-###官网
+### 官网
 https://nacos.io/zh-cn/docs/quick-start.html
 
-###安装nacos-server
+### 安装nacos-server
 ```
 https://codeload.github.com/alibaba/nacos/zip/refs/tags/2.0.3
 
 docker pull nacos/nacos-server:v2.0.3
 ```
 
-###启动
+### 启动
 ```
 sh bin/startup.sh -m standalone
 
