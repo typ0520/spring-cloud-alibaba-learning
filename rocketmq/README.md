@@ -26,7 +26,22 @@ tail -f ~/logs/rocketmqlogs/namesrv.log
 
 #### Start Broker
 
+修改conf/broker.conf文件，添加brokerIP1=localhost
 ```
-nohup sh bin/mqbroker -n localhost:9876 &
+nohup sh bin/mqbroker -n localhost:9876 -c ./conf/broker.conf autoCreateTopicEnable=true &
 tail -f ~/logs/rocketmqlogs/broker.log 
 ```
+
+### 示例
+
+添加依赖
+```
+ <dependency>
+    <groupId>org.apache.rocketmq</groupId>
+    <artifactId>rocketmq-client</artifactId>
+    <version>4.9.3</version>
+</dependency>
+```
+
+[https://rocketmq.apache.org/docs/simple-example/](https://rocketmq.apache.org/docs/simple-example/)
+[https://github.com/apache/rocketmq/tree/master/example](https://github.com/apache/rocketmq/tree/master/example)
